@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves_overlay",
+  "textures": {
+        "all": "minecraft:block/jungle_leaves",
+        "overlay": "minecraft:block/models/jungle_leaves_plants"
+  }
+}

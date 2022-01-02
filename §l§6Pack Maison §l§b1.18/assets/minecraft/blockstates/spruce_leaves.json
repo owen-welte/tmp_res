@@ -1,0 +1,10 @@
+{
+ "variants": {
+ "": [
+ { "model": "block/spruce_leaves", "weight": 85 },
+ { "model": "block/spruce_leaves_cones_a", "weight": 5 },
+ { "model": "block/spruce_leaves_cones_b", "weight": 5 },
+ { "model": "block/spruce_leaves_cones_c", "weight": 5 }
+ ]
+ }
+}

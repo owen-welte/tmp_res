@@ -1,0 +1,80 @@
+{
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "#torch",
+		"extra": "block/models/torch_extra",
+		"fire": "block/models/torch_fire"
+    },
+    "elements": [
+		{   
+			"comment": "Fire LR",
+			"from": [ 7.5, 0, 0 ],
+            "to": [ 8.5, 16, 16 ],
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#fire" },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#fire" }
+            }
+        },
+		{   
+			"comment": "Fire FB",
+			"from": [ 0, 0, 7.5 ],
+            "to": [ 16, 16, 8.5 ],
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#fire" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#fire" }
+            }
+        },
+		
+		{   
+			"comment": "Stick bottom",
+			"from": [ 7, 0, 7 ],
+            "to": [ 9, 8, 9 ],
+            "shade": true,
+            "faces": {
+				"down": { "uv": [ 0, 4, 4, 8 ], "texture": "#extra" }
+            }
+        },
+		
+		{   
+			"comment": "Top and bottom",
+			"from": [ 7, 7.25, 7 ],
+            "to": [ 9, 8, 9 ],
+            "shade": true,
+            "faces": {
+                "up": { "uv": [ 0, 0, 4, 4 ], "texture": "#extra" },
+				"down": { "uv": [ 4, 0, 8, 4 ], "texture": "#extra" }
+            }
+        },
+		
+		{   "from": [ 7, 0, 7 ],
+            "to": [ 9, 10, 9 ],
+            "shade": false,
+            "faces": {
+                "down": { "uv": [ 7, 13, 9, 15 ], "texture": "#torch" },
+                "up":   { "uv": [ 7,  6, 9,  8 ], "texture": "#torch" }
+            }
+        },
+        {   
+			"comment": "Stick LR",
+			"from": [ 7, 0, 0 ],
+            "to": [ 9, 16, 16 ],
+            "shade": false,
+            "faces": {
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#torch" },
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#torch" }
+            }
+        },
+        {   
+			"comment": "Stick FB",
+			"from": [ 0, 0, 7 ],
+            "to": [ 16, 16, 9 ],
+            "shade": false,
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#torch" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#torch" }
+            }
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/leaves_overlay",
+  "textures": {
+        "all": "minecraft:block/spruce_leaves",
+        "overlay": "minecraft:block/models/spruce_leaves_overlay_a"
+  }
+}

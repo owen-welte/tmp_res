@@ -1,0 +1,21 @@
+{   
+	"parent": "block/block",
+	"textures": {
+		"particle": "block/models/infested_deepslate",
+		"sides": "block/models/infested_deepslate",
+		"top": "block/models/infested_deepslate_top"
+	},
+	"elements": [
+		{   "from": [ 0, 0, 0 ],
+			"to": [ 16, 16, 16 ],
+			"faces": {
+				"down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "cullface": "down" },
+				"up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "cullface": "up" },
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#sides", "cullface": "north" },
+				"south": { "uv": [ 0, 0, 16, 16 ], "texture": "#sides", "cullface": "south" },
+				"west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#sides", "cullface": "west" },
+				"east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#sides", "cullface": "east" }
+			}
+		}
+	]
+}
